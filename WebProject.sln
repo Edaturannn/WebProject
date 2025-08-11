@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.DataAccess", "WebAPI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.Business", "WebAPI.Business\WebAPI.Business.csproj", "{176E7E82-CF20-40D3-A646-4E8921664D05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.IntegrationTests", "WebAPI.IntegrationTests\WebAPI.IntegrationTests.csproj", "{56A19722-CA2F-449F-8C50-0C9168C4C991}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{176E7E82-CF20-40D3-A646-4E8921664D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{176E7E82-CF20-40D3-A646-4E8921664D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{176E7E82-CF20-40D3-A646-4E8921664D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A19722-CA2F-449F-8C50-0C9168C4C991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A19722-CA2F-449F-8C50-0C9168C4C991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A19722-CA2F-449F-8C50-0C9168C4C991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A19722-CA2F-449F-8C50-0C9168C4C991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

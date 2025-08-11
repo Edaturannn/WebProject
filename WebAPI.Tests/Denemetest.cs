@@ -22,7 +22,8 @@ public class Denemetest
     }
 
     [Test]
-    public async Task listAsync()
+    public async Task testListAsync_ShouldReturnPostList()
+    // testListAsync_ShouldThrow_WhenPostIdEqualsNull
     {
         // Arrange
         var posts = new List<Post>
@@ -54,7 +55,7 @@ public class Denemetest
     }
 
     [Test]
-    public async Task getbyidAsync()
+    public async Task getByIdAsync()
     {
         // Arrange
         var postId = Guid.NewGuid();

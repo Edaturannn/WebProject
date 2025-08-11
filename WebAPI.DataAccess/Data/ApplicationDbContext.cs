@@ -5,9 +5,9 @@ namespace WebAPI.DataAccess.Data;
 
 public class ApplicationDbContext : DbContext
 {
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        : base(options)
     {
-        optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=WebAPIDatabase;Username=myuser;Password=mypassword");
     }
 
     public DbSet<Post> Posts { get; set; }

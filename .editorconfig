@@ -2,3 +2,6 @@
 
 # CS8604: Olası null başvuru bağımsız değişkeni.
 dotnet_diagnostic.CS8604.severity = error
+
+
+
